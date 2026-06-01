@@ -81,4 +81,6 @@ https://grindscale-liff.pages.dev/
 
 ## 自動化（選用）
 
-GitHub repo → Settings → Secrets → 加入 `CLOUDFLARE_*`、`VITE_*` 後，push `main` 會觸發 `.github/workflows/deploy-pages.yml`。
+Workflow 檔在 `deploy/github-actions/deploy-pages.yml`。複製到 `.github/workflows/` 後 push（需 `gh auth refresh -s workflow` 並完成裝置授權）。
+
+GitHub repo → Settings → Secrets → 加入 `CLOUDFLARE_*`、`VITE_*` 後，push `main` 會觸發部署。
