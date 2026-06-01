@@ -38,8 +38,11 @@ curl -sS https://grindscale-api.onrender.com/healthz
 
 ### 方式 A — 網頁（推薦第一次）
 
+**重要：** 必須選 **Pages**（靜態站），不要選成只有 Worker 的「Builds」。  
+若 `xxx.pages.dev` 出現 **NXDOMAIN / 找不到 IP**，代表還沒建立 Pages 網域，請改部署命令或新建 Pages 專案（見下方「故障排除」）。
+
 1. https://dash.cloudflare.com/ → **Workers & Pages** → **Create**
-2. **Pages** → Connect to Git → 選同一個 repo
+2. **Pages** 分頁 → Connect to Git → 選同一個 repo
 3. 建置設定：
 
 | 欄位 | 值 |

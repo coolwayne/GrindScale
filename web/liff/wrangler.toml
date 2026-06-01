@@ -1,3 +1,4 @@
-name = "grindscale-liff"
+# Must match Cloudflare Pages project name for `wrangler pages deploy`.
+name = "grindscale-liff1"
 compatibility_date = "2024-09-01"
-pages_build_output_dir = "dist"
+pages_build_output_dir = "./dist"
