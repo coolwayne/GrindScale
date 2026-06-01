@@ -23,7 +23,6 @@ services:
     runtime: static
     buildCommand: cd web/liff && npm ci && npm run build
     staticPublishPath: web/liff/dist
-    plan: free
     envVars:
       - key: VITE_API_BASE
         value: https://grindscale-api.onrender.com
