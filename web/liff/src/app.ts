@@ -1,4 +1,4 @@
-import { analyzeImage, fetchMeta, pingHealth } from "./api";
+import { analyzeImage, fetchMeta, pingHealth, waitForApiReady } from "./api";
 import { drawHistogramChart } from "./histogram";
 import { closeLiffWindow, initLiff, type LiffContext } from "./liff";
 import type { AnalyzeResponse, AppSettings, MetaResponse } from "./types";
@@ -261,8 +261,8 @@ async function renderAnalysis(): Promise<void> {
     if (!file) return;
     store.error = null;
     try {
-      const maxDim = meta.limits.maxDimensionPx;
-      const blob = await compressImage(file, maxDim);
+      const maxDim = Math.min(meta.limits.maxDimensionPx, 1280);
+      const blob = await compressImage(file, maxDim, 0.82);
       setPreview(blob);
       render();
     } catch (err) {
@@ -348,6 +348,7 @@ async function runAnalyze(): Promise<void> {
   renderLoadingOverlay();
 
   try {
+    await waitForApiReady();
     const result = await analyzeImage({
       image: store.imageBlob,
       profileId: store.settings.profileId,

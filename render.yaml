@@ -14,7 +14,7 @@ services:
       - key: MAX_UPLOAD_BYTES
         value: "8388608"
       - key: MAX_IMAGE_DIMENSION_PX
-        value: "2048"
+        value: "1280"
       - key: REQUIRE_LIFF_TOKEN
         value: "false"
 

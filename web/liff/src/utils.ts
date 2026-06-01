@@ -153,7 +153,8 @@ export class AnalysisProgress {
 }
 
 export function phaseDetailText(progress: number): string {
-  if (progress <= 0.3) return "正在辨識顆粒並計算粒徑分布";
+  if (progress <= 0.15) return "正在喚醒分析伺服器（免費方案可能需 1 分鐘）";
+  if (progress <= 0.3) return "正在辨識顆粒並計算粒徑分布（請勿關閉頁面）";
   if (progress <= 0.7) return "正在分析數據";
   return "正在撰寫Excel跟專業報告";
 }
