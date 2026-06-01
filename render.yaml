@@ -1,5 +1,5 @@
 # Render Blueprint: https://render.com/docs/blueprint-spec
-# Deploy API only. Host LIFF static files on Cloudflare Pages (see docs/line-mini-app/DEPLOY.md).
+# API (Docker) + LIFF static site — both stay up when your PC is off.
 
 services:
   - type: web
@@ -10,11 +10,26 @@ services:
     healthCheckPath: /healthz
     envVars:
       - key: CORS_ORIGINS
-        value: https://grindscale-liff.pages.dev
-        # Add custom domain origins in Render dashboard if needed
+        value: https://grindscale-liff.onrender.com,https://grindscale-liff.pages.dev,https://grindscale-liff1.pages.dev
       - key: MAX_UPLOAD_BYTES
         value: "8388608"
       - key: MAX_IMAGE_DIMENSION_PX
         value: "2048"
       - key: REQUIRE_LIFF_TOKEN
         value: "false"
+
+  - type: web
+    name: grindscale-liff
+    runtime: static
+    buildCommand: cd web/liff && npm ci && npm run build
+    staticPublishPath: web/liff/dist
+    plan: free
+    envVars:
+      - key: VITE_API_BASE
+        value: https://grindscale-api.onrender.com
+      - key: VITE_LIFF_ID
+        sync: false
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
