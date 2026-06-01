@@ -1,0 +1,24 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 843
+  },
+  "selected": false,
+  "name": "GrindScale 主選單",
+  "chatBarText": "選單",
+  "areas": [
+    {
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 2500,
+        "height": 843
+      },
+      "action": {
+        "type": "uri",
+        "label": "粒徑分析",
+        "uri": "https://miniapp.line.me/YOUR_LIFF_ID"
+      }
+    }
+  ]
+}

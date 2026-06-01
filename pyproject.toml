@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grindscale"
+version = "0.1.0"
+description = "Coffee grind uniformity analyzer MVP"
+requires-python = ">=3.10"
+dependencies = [
+  "streamlit",
+  "opencv-python-headless",
+  "numpy",
+  "matplotlib",
+  "pandas",
+]
+
+[project.optional-dependencies]
+api = [
+  "fastapi>=0.115",
+  "uvicorn[standard]>=0.32",
+  "python-multipart>=0.0.9",
+  "pydantic>=2.0",
+  "httpx>=0.27",
+]
+dev = [
+  "pytest>=8.0",
+  "httpx>=0.27",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "."]

@@ -1,0 +1,44 @@
+name: GrindScaleIOS
+options:
+  minimumXcodeGenVersion: 2.38.0
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: 5.10
+    IPHONEOS_DEPLOYMENT_TARGET: 17.0
+targets:
+  GrindScaleIOS:
+    type: application
+    platform: iOS
+    sources:
+      - Sources
+      - path: Resources/LaunchSplash.png
+        buildPhase: resources
+      - path: Resources/AnalysisLoadingLoop.mp4
+        buildPhase: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.grindscale.ios
+        PRODUCT_NAME: GrindScale
+        TARGETED_DEVICE_FAMILY: "1"
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: GrindScale
+        INFOPLIST_KEY_NSPhotoLibraryUsageDescription: "需要存取相簿以分析咖啡顆粒照片。"
+        INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription: "需要寫入相簿以儲存辨識後的圖片。"
+        INFOPLIST_KEY_NSCameraUsageDescription: "需要使用相機拍照分析咖啡顆粒均勻度。"
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+    scheme:
+      testTargets:
+        - GrindScaleIOSTests
+  GrindScaleIOSTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - Tests
+    dependencies:
+      - target: GrindScaleIOS
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/GrindScale.app/GrindScale"

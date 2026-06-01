@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16F07E6A9327DFB791D52429 /* CoffeeTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE8D69289AFD62A5C72CAF5 /* CoffeeTheme.swift */; };
+		1DB1CEBDA1CE94D46D8B073E /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F5716B1BBDA455ECB55856 /* SplashView.swift */; };
+		22EA42F726FB1FBE5D1AEEA9 /* GrindScaleIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB439B45F82A33B0D0B1932 /* GrindScaleIOSApp.swift */; };
+		5200EC674C5A14DD4077544D /* ActivityShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F0C7A6EE210F8975180B72 /* ActivityShareView.swift */; };
+		5E427AA85007DD810D825B2F /* LaunchSplash.png in Resources */ = {isa = PBXBuildFile; fileRef = D501A85D69803AF5A4CDCCC8 /* LaunchSplash.png */; };
+		5F3142E1B0325022514A9E0F /* AnalysisLoadingLoop.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D801A842ADB8086F363813A5 /* AnalysisLoadingLoop.mp4 */; };
+		607E1EF0B1BAC9DB6B057DE8 /* GrindScaleIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49544174D3F0BCECCE044F2 /* GrindScaleIOSTests.swift */; };
+		6F00482E8045FC33D7807564 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E93072D859D379E09BE1825 /* ContentViewModel.swift */; };
+		73693C200E325117191CD5AF /* AppRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7AB5A30FFD944948A1B00D /* AppRootView.swift */; };
+		77B633872E912E46FB2A3995 /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D861F39391B09ADACFAD26B2 /* HistoryStore.swift */; };
+		7CBBA563D7AA178F06559234 /* RecommendationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E346016165EEAD32692E4C /* RecommendationService.swift */; };
+		847E9BCD392AA1FD1F8D657E /* Analyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEBB950ACD58F805327F32D /* Analyzer.swift */; };
+		856F33CAB3A40C24A6FF1CAF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860203D06BB3424625C05261 /* HomeView.swift */; };
+		87A7E0BD6E256D83B8FCA7C7 /* ImageProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB83DD3A7D963F9E163DD4B /* ImageProcessing.swift */; };
+		8B5406DAE96905668128EA96 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB3ED330F67CDC2982008CB /* Models.swift */; };
+		8FCAE8ED8F3D0C099C065C2D /* ReportExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BB05F2EBCA898F5A634B82 /* ReportExportService.swift */; };
+		B5A613175376D11B6E6C0F25 /* AnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616737107CA8C08840A608AC /* AnalysisView.swift */; };
+		E6BFC55D3F3770C3276FB232 /* ImagePickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C61EC14C82520ED22E41CF /* ImagePickers.swift */; };
+		FF40EAF9C9607D8C7A3088F9 /* CoinCandidatePalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FAC19F5DD9B439C173CAB2 /* CoinCandidatePalette.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F610C5AE13CA33DA646D2F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1AB9AF1F54451E0E164A76B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92096254DBA40BFB6D40F79A;
+			remoteInfo = GrindScaleIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		079774C7E56B15E1A497768B /* GrindScale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrindScale.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E93072D859D379E09BE1825 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		2BB83DD3A7D963F9E163DD4B /* ImageProcessing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessing.swift; sourceTree = "<group>"; };
+		2DB439B45F82A33B0D0B1932 /* GrindScaleIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrindScaleIOSApp.swift; sourceTree = "<group>"; };
+		5AEBB950ACD58F805327F32D /* Analyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analyzer.swift; sourceTree = "<group>"; };
+		616737107CA8C08840A608AC /* AnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisView.swift; sourceTree = "<group>"; };
+		6EE8D69289AFD62A5C72CAF5 /* CoffeeTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeTheme.swift; sourceTree = "<group>"; };
+		74F0C7A6EE210F8975180B72 /* ActivityShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityShareView.swift; sourceTree = "<group>"; };
+		83E346016165EEAD32692E4C /* RecommendationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationService.swift; sourceTree = "<group>"; };
+		84F5716B1BBDA455ECB55856 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		860203D06BB3424625C05261 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		99FAC19F5DD9B439C173CAB2 /* CoinCandidatePalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCandidatePalette.swift; sourceTree = "<group>"; };
+		9A1444AEE0D9E4A237EDC7E0 /* GrindScaleIOSTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = GrindScaleIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0C61EC14C82520ED22E41CF /* ImagePickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickers.swift; sourceTree = "<group>"; };
+		B49544174D3F0BCECCE044F2 /* GrindScaleIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrindScaleIOSTests.swift; sourceTree = "<group>"; };
+		B4BB05F2EBCA898F5A634B82 /* ReportExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportExportService.swift; sourceTree = "<group>"; };
+		BEB3ED330F67CDC2982008CB /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		D501A85D69803AF5A4CDCCC8 /* LaunchSplash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchSplash.png; sourceTree = "<group>"; };
+		D801A842ADB8086F363813A5 /* AnalysisLoadingLoop.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = AnalysisLoadingLoop.mp4; sourceTree = "<group>"; };
+		D861F39391B09ADACFAD26B2 /* HistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStore.swift; sourceTree = "<group>"; };
+		DF7AB5A30FFD944948A1B00D /* AppRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRootView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0AFE32B9F8A6FEC999C1F5D9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2DB439B45F82A33B0D0B1932 /* GrindScaleIOSApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		117E2D45C36178540283FE88 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				6EE8D69289AFD62A5C72CAF5 /* CoffeeTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		53D8E3E7D356C1E0E208BA4B /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B49544174D3F0BCECCE044F2 /* GrindScaleIOSTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		58131C5DED61468B10BEEFC1 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				74F0C7A6EE210F8975180B72 /* ActivityShareView.swift */,
+				616737107CA8C08840A608AC /* AnalysisView.swift */,
+				DF7AB5A30FFD944948A1B00D /* AppRootView.swift */,
+				99FAC19F5DD9B439C173CAB2 /* CoinCandidatePalette.swift */,
+				0E93072D859D379E09BE1825 /* ContentViewModel.swift */,
+				860203D06BB3424625C05261 /* HomeView.swift */,
+				B0C61EC14C82520ED22E41CF /* ImagePickers.swift */,
+				84F5716B1BBDA455ECB55856 /* SplashView.swift */,
+				117E2D45C36178540283FE88 /* Theme */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		65A1C6BB87EC5783832C8415 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				079774C7E56B15E1A497768B /* GrindScale.app */,
+				9A1444AEE0D9E4A237EDC7E0 /* GrindScaleIOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7336ED7457B4811E672EE81B /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				BEB3ED330F67CDC2982008CB /* Models.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		A1B54D3F7FCE9E49E9E2E58E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0AFE32B9F8A6FEC999C1F5D9 /* App */,
+				7336ED7457B4811E672EE81B /* Domain */,
+				C8FA102CA46DF4427A27A996 /* Services */,
+				58131C5DED61468B10BEEFC1 /* UI */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		AD70A024C946E503DF9B06C9 = {
+			isa = PBXGroup;
+			children = (
+				BC0850845D8669D70867CED7 /* Resources */,
+				A1B54D3F7FCE9E49E9E2E58E /* Sources */,
+				53D8E3E7D356C1E0E208BA4B /* Tests */,
+				65A1C6BB87EC5783832C8415 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC0850845D8669D70867CED7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D801A842ADB8086F363813A5 /* AnalysisLoadingLoop.mp4 */,
+				D501A85D69803AF5A4CDCCC8 /* LaunchSplash.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C8FA102CA46DF4427A27A996 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5AEBB950ACD58F805327F32D /* Analyzer.swift */,
+				D861F39391B09ADACFAD26B2 /* HistoryStore.swift */,
+				2BB83DD3A7D963F9E163DD4B /* ImageProcessing.swift */,
+				83E346016165EEAD32692E4C /* RecommendationService.swift */,
+				B4BB05F2EBCA898F5A634B82 /* ReportExportService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92096254DBA40BFB6D40F79A /* GrindScaleIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9063A083571DDC50A1C2D75D /* Build configuration list for PBXNativeTarget "GrindScaleIOS" */;
+			buildPhases = (
+				08C3A9106EF87809CC271C4E /* Sources */,
+				2499EA9943138128EFC7FD90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrindScaleIOS;
+			packageProductDependencies = (
+			);
+			productName = GrindScaleIOS;
+			productReference = 079774C7E56B15E1A497768B /* GrindScale.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AC666293890A83B0315EC5E /* GrindScaleIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 099454402FEFAB7D39B882F0 /* Build configuration list for PBXNativeTarget "GrindScaleIOSTests" */;
+			buildPhases = (
+				236AF3BE6B4E4B7B6292CC0B /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D23653CB2C53A4D7FE61BE9 /* PBXTargetDependency */,
+			);
+			name = GrindScaleIOSTests;
+			packageProductDependencies = (
+			);
+			productName = GrindScaleIOSTests;
+			productReference = 9A1444AEE0D9E4A237EDC7E0 /* GrindScaleIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1AB9AF1F54451E0E164A76B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = DE0B5B36A945170AE228B560 /* Build configuration list for PBXProject "GrindScaleIOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = AD70A024C946E503DF9B06C9;
+			minimizedProjectReferenceProxies = 1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92096254DBA40BFB6D40F79A /* GrindScaleIOS */,
+				9AC666293890A83B0315EC5E /* GrindScaleIOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2499EA9943138128EFC7FD90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3142E1B0325022514A9E0F /* AnalysisLoadingLoop.mp4 in Resources */,
+				5E427AA85007DD810D825B2F /* LaunchSplash.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08C3A9106EF87809CC271C4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5200EC674C5A14DD4077544D /* ActivityShareView.swift in Sources */,
+				B5A613175376D11B6E6C0F25 /* AnalysisView.swift in Sources */,
+				847E9BCD392AA1FD1F8D657E /* Analyzer.swift in Sources */,
+				73693C200E325117191CD5AF /* AppRootView.swift in Sources */,
+				16F07E6A9327DFB791D52429 /* CoffeeTheme.swift in Sources */,
+				FF40EAF9C9607D8C7A3088F9 /* CoinCandidatePalette.swift in Sources */,
+				6F00482E8045FC33D7807564 /* ContentViewModel.swift in Sources */,
+				22EA42F726FB1FBE5D1AEEA9 /* GrindScaleIOSApp.swift in Sources */,
+				77B633872E912E46FB2A3995 /* HistoryStore.swift in Sources */,
+				856F33CAB3A40C24A6FF1CAF /* HomeView.swift in Sources */,
+				E6BFC55D3F3770C3276FB232 /* ImagePickers.swift in Sources */,
+				87A7E0BD6E256D83B8FCA7C7 /* ImageProcessing.swift in Sources */,
+				8B5406DAE96905668128EA96 /* Models.swift in Sources */,
+				7CBBA563D7AA178F06559234 /* RecommendationService.swift in Sources */,
+				8FCAE8ED8F3D0C099C065C2D /* ReportExportService.swift in Sources */,
+				1DB1CEBDA1CE94D46D8B073E /* SplashView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		236AF3BE6B4E4B7B6292CC0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607E1EF0B1BAC9DB6B057DE8 /* GrindScaleIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D23653CB2C53A4D7FE61BE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92096254DBA40BFB6D40F79A /* GrindScaleIOS */;
+			targetProxy = 6F610C5AE13CA33DA646D2F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00698FD2C960181E50D63831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = DN6569GA3X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GrindScale;
+				INFOPLIST_KEY_NSCameraUsageDescription = "需要使用相機拍照分析咖啡顆粒均勻度。";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "需要寫入相簿以儲存辨識後的圖片。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "需要存取相簿以分析咖啡顆粒照片。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.grindscale.ios;
+				PRODUCT_NAME = GrindScale;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		492A1868095D611DAD284646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.1;
+			};
+			name = Debug;
+		};
+		54B0FE0A590A00395C3BD8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = DN6569GA3X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GrindScale;
+				INFOPLIST_KEY_NSCameraUsageDescription = "需要使用相機拍照分析咖啡顆粒均勻度。";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "需要寫入相簿以儲存辨識後的圖片。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "需要存取相簿以分析咖啡顆粒照片。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.grindscale.ios;
+				PRODUCT_NAME = GrindScale;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6464CEFABF91E3C641DEE7F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrindScale.app/GrindScale";
+			};
+			name = Debug;
+		};
+		C6DDB441294D21DC99E2AECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.1;
+			};
+			name = Release;
+		};
+		E9F895C9F207373D63D42324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrindScale.app/GrindScale";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		099454402FEFAB7D39B882F0 /* Build configuration list for PBXNativeTarget "GrindScaleIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6464CEFABF91E3C641DEE7F0 /* Debug */,
+				E9F895C9F207373D63D42324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9063A083571DDC50A1C2D75D /* Build configuration list for PBXNativeTarget "GrindScaleIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54B0FE0A590A00395C3BD8C1 /* Debug */,
+				00698FD2C960181E50D63831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DE0B5B36A945170AE228B560 /* Build configuration list for PBXProject "GrindScaleIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				492A1868095D611DAD284646 /* Debug */,
+				C6DDB441294D21DC99E2AECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1AB9AF1F54451E0E164A76B /* Project object */;
+}

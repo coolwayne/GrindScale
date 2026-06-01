@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+*.DS_Store
+node_modules/
+web/liff/dist/
+.env
+web/liff/.env
+.grindscale-tunnel/
+deploy/.env.deploy
+android/.gradle/
+android/build/
+*.egg-info/
+ios/**/xcuserdata/

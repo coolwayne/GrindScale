@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200">
+  <rect width="320" height="200" rx="12" fill="#F7F0E6"/>
+  <circle cx="160" cy="90" r="48" fill="#B87A47" opacity="0.25"/>
+  <circle cx="130" cy="100" r="14" fill="#3B82F6" opacity="0.7"/>
+  <circle cx="160" cy="95" r="16" fill="#22C55E" opacity="0.75"/>
+  <circle cx="190" cy="102" r="12" fill="#EF4444" opacity="0.75"/>
+  <text x="160" y="175" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#59381F">GrindScale</text>
+</svg>
